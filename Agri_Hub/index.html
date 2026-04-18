@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriHub - Smart Farming Solutions</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-seedling me-2"></i>AgriHub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel - Redesigned -->
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" class="d-block w-100 hero-bg-img" alt="Farm">
+                <div class="carousel-caption d-none d-md-block hero-overlay">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h1 class="display-3 fw-bold text-white mb-4 animate-fade-in">Smart Farming Solutions</h1>
+                                <p class="lead fs-4 text-white-50 mb-5">Revolutionizing agriculture with innovative technology and sustainable practices.</p>
+                                <a href="#services" class="btn btn-primary btn-lg px-5">Explore Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1504279578155-77e3f4e070b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" class="d-block w-100 hero-bg-img" alt="Sustainable Farm">
+                <div class="carousel-caption d-none d-md-block hero-overlay">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h1 class="display-3 fw-bold text-white mb-4 animate-fade-in">Sustainable Agriculture</h1>
+                                <p class="lead fs-4 text-white-50 mb-5">Empowering farmers with eco-friendly solutions for better yields.</p>
+                                <a href="pages/services.html" class="btn btn-primary btn-lg px-5">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1507917507617-781db764ae7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80" class="d-block w-100 hero-bg-img" alt="Modern Farm">
+                <div class="carousel-caption d-none d-md-block hero-overlay">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h1 class="display-3 fw-bold text-white mb-4 animate-fade-in">Modern Farming Hub</h1>
+                                <p class="lead fs-4 text-white-50 mb-5">Your one-stop solution for all agricultural needs.</p>
+                                <a href="pages/products.html" class="btn btn-primary btn-lg px-5">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="filter: invert(1); opacity: 0.8;"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="filter: invert(1); opacity: 0.8;"></span>
+        </button>
+    </div>
+
+    <!-- About Preview -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1561292647-e425e8f2a7f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" class="img-fluid rounded shadow" alt="Agriculture Hub">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">Welcome to AgriHub</h2>
+                    <p class="lead mb-4">Agriculture hub providing comprehensive solutions for modern farming. From soil testing to advanced irrigation systems, we support farmers at every step to maximize productivity and sustainability.</p>
+                    <a href="pages/about.html" class="btn btn-primary btn-lg">Learn About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center display-4 fw-bold mb-5">Featured Services</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <img src="https://images.unsplash.com/photo-1611093805596-cab23e4f5b1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Crop Production">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-seedling text-success me-2"></i>Crop Production</h5>
+                            <p class="card-text">Expert guidance on crop selection, planting, and harvesting techniques.</p>
+                        </div>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 service-card">
+        <img src="http://127.0.0.1:5500/images/1680606704849.jpg" class="card-img-top" alt="Organic Farming">
+        <div class="card-body">
+            <h5 class="card-title">
+                <i class="fas fa-leaf text-success me-2"></i>Organic Farming
+            </h5>
+            <p class="card-text">
+                Sustainable organic practices for chemical-free produce.
+            </p>
+        </div>
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <img src="https://images.unsplash.com/photo-1597947044553-2f7822edcf43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Equipment Support">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-tools text-success me-2"></i>Equipment Support</h5>
+                            <p class="card-text">Modern farming equipment rental and maintenance services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <img src="https://images.unsplash.com/photo-1503598257637-7aa6952d335f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Irrigation">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-tint text-success me-2"></i>Irrigation Systems</h5>
+                            <p class="card-text">Advanced drip and sprinkler irrigation solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>AgriHub</h5>
+                    <p>Your trusted partner in modern agriculture. Sustainable solutions for better tomorrow.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light">Home</a></li>
+                        <li><a href="pages/about.html" class="text-light">About</a></li>
+                        <li><a href="pages/services.html" class="text-light">Services</a></li>
+                        <li><a href="pages/products.html" class="text-light">Products</a></li>
+                        <li><a href="pages/contact.html" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p>&copy; 2024 AgriHub. All rights reserved. | Designed with <i class="fas fa-heart text-danger"></i> for farmers.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
